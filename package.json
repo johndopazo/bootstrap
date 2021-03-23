@@ -22,7 +22,7 @@
   "scripts": {
     "start": "npm-run-all --parallel watch docs-serve",
     "bundlewatch": "bundlewatch --config .bundlewatch.config.json",
-    "css": "npm-run-all css-compile css-prefix css-minify",
+    "css": "npm-run-all css-compile css-minify",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/",
     "css-lint": "npm-run-all --continue-on-error --parallel css-lint-*",
     "css-lint-stylelint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache --rd",
