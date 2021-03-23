@@ -29,11 +29,13 @@ html {
 @import "utilities/flex";
 @import "utilities/spacing";
 
-/* These are required by dopazoinsurance.com */
+/* These are required by dopazoinsurance.com. Order MATTERS! */
 @import "vendor/rfs";
+@import "mixins/hover";
+@import "mixins/lists";
 @import "reboot";
 @import "type";
 @import "mixins/clearfix";
-@import "mixins/hover";
-@import "mixins/lists";
 @import "utilities/clearfix";
+@import "mixins/float";
+@import "utilities/float";
