@@ -39,3 +39,9 @@ html {
 @import "utilities/clearfix";
 @import "mixins/float";
 @import "utilities/float";
+
+/* For video modal. */
+@import "mixins/transition";
+@import "mixins/border-radius";
+@import "mixins/box-shadow";
+@import "modal";
